@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;;
+}
+:root{
+    --darkred: #c00424;
+}
+
+.navigator{
+    background:linear-gradient(135deg, #CE9FFC 0%,#7367F0 100%);
+}
+
+.navigatora{
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+    border-radius: 10px;
+}
+.navigatorli{
+    display: inline-block;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+.navigatorul{
+    padding :10px;
+}
+
+.navigatora:hover{
+    background-color: crimson;
+    color: white;
+    transition: all  .3s linear;
+}
+
+/* us */
+.usposition{
+position: relative;
+}
+
+/*  us*/
+
+/* inherit-navigator=>userprofilenav */
+.usernav{
+    display: block;
+  position: absolute;
+  z-index: 1;
+  padding: 10px;
+  list-style-type: none;
+  backdrop-filter: blur(3px);
+  min-width: 160px;
+}
+
+.usernav li a{
+    text-decoration: none;
+    color: inherit;
+    position: absolute;
+}
+
+
+.usernav li{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.usernav li:hover{
+    
+background: #227B91;
+background: -webkit-linear-gradient(top left, #227B91, #3610CE);
+background: -moz-linear-gradient(top left, #227B91, #3610CE);
+background: linear-gradient(to bottom right, #227B91, #3610CE);
+}
+.usposition:hover .usernav{ 
+    display: block;
+}
+
+/*inherit- navigator=>userprofilenav=> usernav */
+
+
+/*cardscrollkit*/
+.card{ 
+    display:inline-block;
+}
+
+/* card scroll kit*/
